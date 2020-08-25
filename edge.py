@@ -41,7 +41,7 @@ while(1):
 	# Display edges in a frame 
 	cv2.imshow('Edges',edges) 
 
-	# Wait for Esc key to stop # added some comments
+	# Wait for Esc key to stop # add
 	k = cv2.waitKey(5) & 0xFF
 	if k == 27: 
 		break
